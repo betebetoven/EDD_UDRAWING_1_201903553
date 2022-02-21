@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="proshecto1EDD:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/proshecto1EDD_jar</output-path>
+    <root id="archive" name="proshecto1EDD.jar">
+      <element id="module-output" name="proshecto1EDD" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/gson-2.8.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
