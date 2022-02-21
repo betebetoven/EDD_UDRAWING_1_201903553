@@ -59,6 +59,7 @@ public class Main {
         try {
             // Apertura del fichero y creacion de BufferedReader para poder
             // hacer una lectura comoda (disponer del metodo readLine()).
+            //para el commit final
             archivo = new File(pathname);
             fr = new FileReader(archivo);
             br = new BufferedReader(fr);
