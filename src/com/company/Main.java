@@ -73,6 +73,7 @@ public class Main {
             e.printStackTrace();
         } finally {
             // En el finally cerramos el fichero, para asegurarnos
+            //otro cambio solo para hacerlo bien
             // que se cierra tanto si todo va bien como si salta
             // una excepcion.
             try {
