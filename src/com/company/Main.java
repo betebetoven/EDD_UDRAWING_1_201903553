@@ -36,7 +36,7 @@ public class Main {
     public static Random rndm = new Random();
 
 
-    public static String partir = "a b c d e f g h i j k l m n ñ o p q r s t u v w x y z a1 a2 a3 a4 a5 a6 a7 a8 b1 b2 b3 b4 b5 b6 b7 b8 b9 c1 c2 c3 c4 qwer asdf zvc rth sdfg ty sdf rth erg ";
+    public static String partir = "a b c d e f g h i j k l m n ñ o p q r s t u v w x y z a1 a2 a3 a4 a5 a6 a7 a8 b1 b2 b3 b4 b5 b6 b7 b8 b9 c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 d1 d2 d3 d4 d5 d6 d7 d8 d9 d10 z1 z2 z3 z4 z5 z6 z7 z8 z9 qwer asdf zvc rth sdfg ty sdf rth erg ";
     public static String[] apellido = partir.split("\\s+");
     public static ArrayList<cliente> clientes = new ArrayList<>();
     public static Gson gsus = new Gson();
