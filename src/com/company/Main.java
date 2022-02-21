@@ -89,6 +89,7 @@ public class Main {
 
     //public  static JSONParser parsero = new JSONParser();
     //public static String[] jefa = {"v","j"};
+    //revisaria lo demas pero ya no ay tiempo jejeje
 
 
     public static void main(String[] args) throws FileNotFoundException {
