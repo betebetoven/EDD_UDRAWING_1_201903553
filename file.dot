@@ -1,0 +1,10 @@
+digraph G
+{
+        node[shape = circle]
+        node[style = filled]
+        node[fillcolor = "#EEEEE"]
+        node[color = "#EEEEE"]
+        node[color = "#31CEF0"]
+lesteer_b->erick_c3->gabriel_c->emil_a->esteban_t->vacio_5_vacio->vacio_6_vacio->vacio_7_vacio->vacio_8_vacio->vacio_9_vacio->vacio_10_vacio->vacio_9_vacio->vacio_8_vacio->vacio_7_vacio->vacio_6_vacio->esteban_t->emil_a->gabriel_c->erick_c3->lesteer_b->NULL
+rankdir = LR;
+}
