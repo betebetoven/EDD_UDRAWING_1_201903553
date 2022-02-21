@@ -448,14 +448,14 @@ public class Main {
                 }
 
                 //  impresion cola entrada
-                System.out.println("\nver cola entrada");
+                System.out.println("\nCOLA ENTRADA:----------------------------------");
                 nodo m2 = cola_entrada.First;
                 while (m2 != null)
                 {
                     System.out.println(((cliente)m2.value).vercliente());
                     m2 = m2.Next;
                 }//IMPRESION DE LA COLA
-                System.out.println("ver ventanillas");
+                System.out.println("\nVENTANILLAS:------------------------------------------");
                 nodo ver = ventanillas.First;
                 while (ver != null)
                 {
@@ -467,21 +467,21 @@ public class Main {
                     ver = ver.Next;
                 }
                 //impresion sala espera
-                System.out.println("ver sala espera");
+                System.out.println("\n SALA ESPERA:----------------------------------------");
                 nodo espera = sala_espera.First;
                 while (espera != null) {
                     System.out.println(((cliente) espera.value).vercliente());
                     espera = espera.Next;
                 }
                 //impresion impresora color
-                System.out.println("ver impresora color");
+                System.out.println("\nIMPRESORA COLOR:--------------------------------------");
                 nodo vercolor = imp_color.First;
                 while (vercolor != null) {
                     System.out.println(((imagen) vercolor.value).getodo());
                     vercolor = vercolor.Next;
                 }
                 //impresion impresora blanco y negro
-                System.out.println("ver impresora blanco y negro");
+                System.out.println("\n IMPRESORA BLANCO Y NEGRO:------------------------------------");
                 nodo verbn = imp_bn.First;
                 while (verbn != null) {
                     System.out.println(((imagen) verbn.value).getodo());
@@ -525,12 +525,16 @@ public class Main {
             else if(papanoel.equals("5"))
             {
                 System.out.println("Ingresar el nombre especifico");
-                String busca = input.next().toString();
+                String bnom = input.next().toString();
+                System.out.println("Ingresar el apellio");
+                String bpellido = input.next().toString();
+                String busca = bnom+" "+bpellido;
+
                 nodo buscanodo = listatotaldeclientes.First;
                 while (buscanodo != null)
                 {
-                    if(busca.equals(((cliente)buscanodo.value).nombre_cliente)) {
-                        System.out.println(((cliente) buscanodo.value).vercliente());
+                    if(busca.toString().equals(((cliente)buscanodo.value).nombre_cliente)) {
+                        System.out.println("INFORMACION DEL CLIENTE ESPECIFICADO: "+((cliente) buscanodo.value).vercliente());
                         break;
                     }
                     buscanodo = buscanodo.Next;
