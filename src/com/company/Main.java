@@ -553,6 +553,10 @@ public class Main {
             {
                 ventanillas.drawGraphviz();
             }
+            else if (papanoel.equals("7"))
+            {
+                k=false;
+            }
             else System.out.println("Ingrese un numero valido");
 
 
